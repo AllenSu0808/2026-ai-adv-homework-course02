@@ -1,0 +1,70 @@
+{
+  "expectations": [
+    {
+      "text": "伺服器在 3001 port 確認已啟動或成功啟動",
+      "passed": true,
+      "evidence": "summary.md: 'Already running, reused existing server, no startup needed' — 透過 netstat 確認 PID 21136 在監聽"
+    },
+    {
+      "text": "登入成功並導向首頁",
+      "passed": true,
+      "evidence": "summary.md step 2: 'Redirected to /, title \"首頁 - 花漾生活\", Admin nav visible.'"
+    },
+    {
+      "text": "商品成功加入購物車",
+      "passed": true,
+      "evidence": "summary.md step 3: 'Verified on /cart: item present, nav badge showed \"購物車 1\"'"
+    },
+    {
+      "text": "結帳後成功跳轉到 ECPay 付款頁面",
+      "passed": true,
+      "evidence": "summary.md step 4: 跳轉到 https://payment-stage.ecpay.com.tw/Cashier/AioCheckOut/V5,訂單編號 ORD2026061707079"
+    },
+    {
+      "text": "正確選擇「網路ATM」(WebATM)而非「ATM虛擬帳號」",
+      "passed": true,
+      "evidence": "summary.md step 5: 'Selected the \"WebATM\" listitem ... confirmed this is the correct one vs. the separate \"ATM\" / \"ATM虛擬帳號\" option, per the skill's table.'"
+    },
+    {
+      "text": "銀行選擇「台灣土地銀行」",
+      "passed": true,
+      "evidence": "summary.md step 5: 'selected \"台灣土地銀行\"' 且最終訂單頁確認 payment method 為網路ATM/台灣土地銀行"
+    },
+    {
+      "text": "正確處理 ECPay 提醒彈窗(僅點關閉,未對前往付款重複點擊導致 timeout)",
+      "passed": true,
+      "evidence": "summary.md step 6 與 Errors 區塊第1點: 'Per the skill's guidance, clicked only \"關閉\" (did NOT click \"前往付款\" a second time)... worked perfectly'"
+    },
+    {
+      "text": "最終訂單狀態顯示「已付款」",
+      "passed": true,
+      "evidence": "summary.md Final Order Details: 'Final order status: 已付款 (Paid), confirmed both on the page and by directly querying the SQLite orders table (status: \"paid\")'"
+    },
+    {
+      "text": "整個流程沒有發生未解決的錯誤或需要多次重試才能繼續",
+      "passed": true,
+      "evidence": "summary.md: 'No retries were needed for any step; every click/navigation succeeded on the first attempt.'"
+    }
+  ],
+  "summary": {
+    "passed": 9,
+    "failed": 0,
+    "total": 9,
+    "pass_rate": 1.0
+  },
+  "execution_metrics": {
+    "tool_calls": {
+      "Bash": 4,
+      "Playwright": 22,
+      "Read_Write_Edit": 6
+    },
+    "total_tool_calls": 32,
+    "total_steps": 7,
+    "errors_encountered": 0,
+    "output_chars": 4200,
+    "transcript_chars": 0
+  },
+  "timing": {
+    "total_duration_seconds": 444.0
+  }
+}

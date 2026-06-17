@@ -1,0 +1,56 @@
+Page URL: http://localhost:3001/orders/f2392654-735d-4d6c-813b-290f37a41b9d?payment=pending
+Page Title: 訂單詳情 - 花漾生活
+
+### Snapshot
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "花漾生活 FLOWER MKT" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "商品列表" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "購物車" [ref=e7] [cursor=pointer]:
+          - /url: /cart
+        - link "我的訂單" [ref=e8] [cursor=pointer]:
+          - /url: /orders
+      - generic [ref=e9]:
+        - link "後台管理" [ref=e10] [cursor=pointer]:
+          - /url: /admin/products
+        - generic [ref=e11]: Admin
+        - button "登出" [ref=e12]
+  - main [ref=e13]:
+    - generic [ref=e14]:
+      - heading "訂單詳情" [level=1] [ref=e16]
+      - generic [ref=e17]: 付款成功！感謝您的購買。
+      - generic [ref=e18]:
+        - heading "ORD-20260617-07079" [level=2] [ref=e19]
+        - generic [ref=e20]: 已付款
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: ▸ 收件資訊
+          - generic [ref=e24]:
+            - paragraph [ref=e25]: Admin Tester
+            - paragraph [ref=e26]: admin@hexschool.com
+            - paragraph [ref=e27]: 台北市信義區松仁路100號
+        - generic [ref=e28]:
+          - paragraph [ref=e29]: ▸ 訂單資訊
+          - paragraph [ref=e31]: 訂購日期：2026/6/17
+      - table [ref=e33]:
+        - rowgroup [ref=e34]:
+          - row "商品名稱 單價 數量 小計" [ref=e35]:
+            - columnheader "商品名稱" [ref=e36]
+            - columnheader "單價" [ref=e37]
+            - columnheader "數量" [ref=e38]
+            - columnheader "小計" [ref=e39]
+        - rowgroup [ref=e40]:
+          - row "粉色玫瑰花束 NT$ 1,680 1 NT$ 1,680" [ref=e41]:
+            - cell "粉色玫瑰花束" [ref=e42]
+            - cell "NT$ 1,680" [ref=e43]
+            - cell "1" [ref=e44]
+            - cell "NT$ 1,680" [ref=e45]
+        - rowgroup [ref=e46]:
+          - row "訂單總計： NT$ 1,680" [ref=e47]:
+            - cell "訂單總計：" [ref=e48]
+            - cell "NT$ 1,680" [ref=e49]
+  - contentinfo [ref=e50]: © 2026 花漾生活 Flower Market
