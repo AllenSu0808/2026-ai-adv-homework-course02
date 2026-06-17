@@ -1,21 +1,36 @@
 @import "tailwindcss";
 
 @theme {
-  --color-rose-primary: #C4727F;
-  --color-rose-dark: #A85B67;
-  --color-rose-light: #E8A5AE;
-  --color-apricot: #D4956A;
-  --color-sage: #7EA584;
-  --color-cream: #FBF8F4;
-  --color-blush: #FFF1EC;
-  --color-rose-bg: #FDEAE4;
-  --color-text-primary: #2C2A28;
-  --color-text-secondary: #6B6560;
-  --color-text-muted: #9A948E;
+  --color-coral: #C97D60;
+  --color-coral-deep: #A8633F;
+  --color-marigold: #F4B8A8;
+  --color-ink: #5C4A42;
+  --color-paper: #FBF6F0;
+  --color-stem: #8FA888;
+
+  --color-rose-primary: var(--color-coral);
+  --color-rose-dark: var(--color-coral-deep);
+  --color-rose-light: var(--color-marigold);
+  --color-apricot: var(--color-marigold);
+  --color-sage: var(--color-stem);
+  --color-cream: var(--color-paper);
+  --color-blush: #F4E3D8;
+  --color-rose-bg: #F4E3D8;
+  --color-text-primary: var(--color-ink);
+  --color-text-secondary: #8A7A70;
+  --color-text-muted: #B5A89E;
 }
 
 body {
   font-family: 'Noto Sans TC', sans-serif;
   background-color: var(--color-cream);
   color: var(--color-text-primary);
+}
+
+.font-display {
+  font-family: 'Archivo', 'Noto Sans TC', sans-serif;
+}
+
+.font-hand {
+  font-family: 'Caveat', cursive;
 }

@@ -1,0 +1,136 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "花漾生活 FLOWER MKT" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - navigation [ref=e5]:
+        - link "商品列表" [ref=e6] [cursor=pointer]:
+          - /url: /
+        - link "購物車" [ref=e7] [cursor=pointer]:
+          - /url: /cart
+      - link "登入" [ref=e9] [cursor=pointer]:
+        - /url: /login
+  - main [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e13]:
+        - generic [ref=e14]:
+          - paragraph [ref=e15]: ▸ 今日鮮花 / FRESH TODAY
+          - heading "清晨花市 直送的鮮度" [level=1] [ref=e16]:
+            - text: 清晨花市
+            - text: 直送的鮮度
+          - paragraph [ref=e17]: 每天清晨從花市精選當季花材，由花藝師手工包裝，當日直送到你手中。
+          - link "立即選購" [ref=e18] [cursor=pointer]:
+            - /url: "#products"
+        - img "花束" [ref=e20]
+      - generic [ref=e21]:
+        - generic [ref=e22]:
+          - paragraph [ref=e23]: ▸ 本季最受歡迎
+          - heading "今日鮮花精選" [level=2] [ref=e24]
+        - generic [ref=e25]:
+          - generic [ref=e26] [cursor=pointer]:
+            - img "粉色玫瑰花束" [ref=e28]
+            - generic [ref=e29]:
+              - heading "粉色玫瑰花束" [level=3] [ref=e30]
+              - paragraph [ref=e31]: NT$ 1,680
+          - generic [ref=e32] [cursor=pointer]:
+            - img "白色百合花禮盒" [ref=e34]
+            - generic [ref=e35]:
+              - heading "白色百合花禮盒" [level=3] [ref=e36]
+              - paragraph [ref=e37]: NT$ 1,280
+          - generic [ref=e38] [cursor=pointer]:
+            - img "繽紛向日葵花束" [ref=e40]
+            - generic [ref=e41]:
+              - heading "繽紛向日葵花束" [level=3] [ref=e42]
+              - paragraph [ref=e43]: NT$ 980
+          - generic [ref=e44] [cursor=pointer]:
+            - img "紫色鬱金香盆栽" [ref=e46]
+            - generic [ref=e47]:
+              - heading "紫色鬱金香盆栽" [level=3] [ref=e48]
+              - paragraph [ref=e49]: NT$ 750
+      - generic [ref=e51]:
+        - img "花藝師" [ref=e53]
+        - generic [ref=e54]:
+          - paragraph [ref=e55]: ▸ 我們的故事
+          - heading "從花市到你家，只隔一個清晨" [level=2] [ref=e56]
+          - paragraph [ref=e57]: 花漾生活成立於 2020 年，每天清晨直接向花市採購，由花藝師現場手工包裝，省去中間囤貨環節，讓每一束花都保有市集現場的新鮮與生命力。
+      - generic [ref=e58]:
+        - generic [ref=e59]:
+          - paragraph [ref=e60]: ▸ 全部商品
+          - heading "探索所有花藝" [level=2] [ref=e61]
+        - generic [ref=e62]:
+          - generic [ref=e63] [cursor=pointer]:
+            - img "粉色玫瑰花束" [ref=e65]
+            - generic [ref=e66]:
+              - heading "粉色玫瑰花束" [level=3] [ref=e67]
+              - paragraph [ref=e68]: NT$ 1,680
+              - button "加入購物車" [ref=e69]
+          - generic [ref=e70] [cursor=pointer]:
+            - img "白色百合花禮盒" [ref=e72]
+            - generic [ref=e73]:
+              - heading "白色百合花禮盒" [level=3] [ref=e74]
+              - paragraph [ref=e75]: NT$ 1,280
+              - button "加入購物車" [ref=e76]
+          - generic [ref=e77] [cursor=pointer]:
+            - img "繽紛向日葵花束" [ref=e79]
+            - generic [ref=e80]:
+              - heading "繽紛向日葵花束" [level=3] [ref=e81]
+              - paragraph [ref=e82]: NT$ 980
+              - button "加入購物車" [ref=e83]
+          - generic [ref=e84] [cursor=pointer]:
+            - img "紫色鬱金香盆栽" [ref=e86]
+            - generic [ref=e87]:
+              - heading "紫色鬱金香盆栽" [level=3] [ref=e88]
+              - paragraph [ref=e89]: NT$ 750
+              - button "加入購物車" [ref=e90]
+          - generic [ref=e91] [cursor=pointer]:
+            - img "乾燥花藝術花圈" [ref=e93]
+            - generic [ref=e94]:
+              - heading "乾燥花藝術花圈" [level=3] [ref=e95]
+              - paragraph [ref=e96]: NT$ 1,450
+              - button "加入購物車" [ref=e97]
+          - generic [ref=e98] [cursor=pointer]:
+            - img "迷你多肉組合盆" [ref=e100]
+            - generic [ref=e101]:
+              - heading "迷你多肉組合盆" [level=3] [ref=e102]
+              - paragraph [ref=e103]: NT$ 580
+              - button "加入購物車" [ref=e104]
+          - generic [ref=e105] [cursor=pointer]:
+            - img "經典紅玫瑰花束" [ref=e107]
+            - generic [ref=e108]:
+              - heading "經典紅玫瑰花束" [level=3] [ref=e109]
+              - paragraph [ref=e110]: NT$ 3,980
+              - button "加入購物車" [ref=e111]
+          - generic [ref=e112] [cursor=pointer]:
+            - img "季節鮮花訂閱（月配）" [ref=e114]
+            - generic [ref=e115]:
+              - heading "季節鮮花訂閱（月配）" [level=3] [ref=e116]
+              - paragraph [ref=e117]: NT$ 890
+              - button "加入購物車" [ref=e118]
+      - generic [ref=e119]:
+        - generic [ref=e120]:
+          - paragraph [ref=e121]: ▸ 顧客怎麼說
+          - heading "花束好評分享" [level=2] [ref=e122]
+        - generic [ref=e123]:
+          - generic [ref=e124]:
+            - generic [ref=e125]: ★★★★★
+            - paragraph [ref=e126]: 「花束非常漂亮，包裝精緻，送給媽媽她超開心的！配送也很準時。」
+            - paragraph [ref=e127]: "-- 小美"
+          - generic [ref=e128]:
+            - generic [ref=e129]: ★★★★★
+            - paragraph [ref=e130]: 「第二次購買了，品質一如既往的好。花材新鮮，整體搭配很有美感。」
+            - paragraph [ref=e131]: "-- 阿明"
+          - generic [ref=e132]:
+            - generic [ref=e133]: ★★★★★
+            - paragraph [ref=e134]: 「女朋友收到花束超感動！會再回購的，推薦給大家！」
+            - paragraph [ref=e135]: "-- 大衛"
+      - generic [ref=e137]:
+        - generic [ref=e138]:
+          - heading "快速配送" [level=3] [ref=e140]
+          - paragraph [ref=e141]: 台北市區當日配送
+        - generic [ref=e142]:
+          - heading "精美包裝" [level=3] [ref=e144]
+          - paragraph [ref=e145]: 每束花都經過精心包裝
+        - generic [ref=e146]:
+          - heading "滿額免運" [level=3] [ref=e148]
+          - paragraph [ref=e149]: 消費滿 NT$ 500 免運費
+  - contentinfo [ref=e150]: © 2026 花漾生活 Flower Market

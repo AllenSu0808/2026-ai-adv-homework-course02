@@ -1,0 +1,4363 @@
+{
+  "version": "2.13",
+  "children": [
+    {
+      "type": "frame",
+      "id": "Y3fypr",
+      "x": 0,
+      "y": 0,
+      "name": "Welcome to Pencil",
+      "clip": true,
+      "width": 1000,
+      "height": 1458,
+      "layout": "none",
+      "children": [
+        {
+          "type": "text",
+          "id": "p5iwM",
+          "x": 38,
+          "y": 297,
+          "name": "Start here",
+          "fill": "#ff8303ff",
+          "textGrowth": "fixed-width-height",
+          "width": 923,
+          "height": 139,
+          "content": "Ask agent to design",
+          "lineHeight": 1.399999976158142,
+          "textAlign": "center",
+          "fontFamily": "Noto Sans",
+          "fontSize": 100,
+          "fontWeight": "500",
+          "letterSpacing": -4
+        }
+      ]
+    },
+    {
+      "type": "path",
+      "id": "pSGLk",
+      "x": 317,
+      "y": 689,
+      "geometry": "M7 0l0 14m7-7l-7 7-7-7",
+      "width": 366,
+      "height": 366,
+      "stroke": "#ff8302ff",
+      "strokeWidth": 50,
+      "strokeLinejoin": "round",
+      "strokeLinecap": "round"
+    },
+    {
+      "type": "frame",
+      "id": "x9Z5L",
+      "x": 1080,
+      "y": 0,
+      "name": "PriceTag",
+      "reusable": true,
+      "width": 140,
+      "height": 64,
+      "layout": "none",
+      "children": [
+        {
+          "type": "rectangle",
+          "cornerRadius": 4,
+          "id": "Y0ac98",
+          "x": 0,
+          "y": 8,
+          "name": "TagBg",
+          "rotation": -3.0000000000000004,
+          "fill": "#F4B8A8",
+          "width": 140,
+          "height": 48,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2
+        },
+        {
+          "type": "text",
+          "id": "NvBMB",
+          "x": 14,
+          "y": 6,
+          "name": "Price",
+          "rotation": -3.0000000000000004,
+          "fill": "$ink",
+          "content": "NT$ 880",
+          "fontFamily": "Caveat",
+          "fontSize": 34,
+          "fontWeight": "700"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ftzKM",
+      "x": 1080,
+      "y": 144,
+      "name": "Button",
+      "reusable": true,
+      "fill": "#C97D60",
+      "cornerRadius": 6,
+      "padding": [
+        14,
+        28
+      ],
+      "justifyContent": "center",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "MBMPj",
+          "name": "Label",
+          "fill": "$white",
+          "content": "加入購物車",
+          "fontFamily": "Noto Sans TC",
+          "fontSize": 15,
+          "fontWeight": "700"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "M5XZCe",
+      "x": 1080,
+      "y": 274,
+      "name": "ProductCard",
+      "reusable": true,
+      "clip": true,
+      "width": 300,
+      "fill": "#FFFFFF",
+      "cornerRadius": 8,
+      "stroke": "#5C4A42",
+      "strokeWidth": 2,
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "BE2am",
+          "name": "ImageWrap",
+          "clip": true,
+          "width": 300,
+          "height": 280,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "WuKRc",
+              "name": "Image",
+              "metadata": {
+                "type": "unsplash",
+                "username": "raspopovamarisha",
+                "link": "https://unsplash.com/@raspopovamarisha",
+                "author": "Raspopova Marina"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1654114196037-18a6dea41878?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3MzZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 280
+            },
+            {
+              "id": "cWNsO",
+              "type": "ref",
+              "ref": "x9Z5L",
+              "name": "PriceTag",
+              "layoutPosition": "absolute",
+              "x": 160,
+              "y": 222
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BEvO0",
+          "name": "CardBody",
+          "width": 300,
+          "layout": "vertical",
+          "gap": 6,
+          "padding": [
+            16,
+            18,
+            20,
+            18
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "n039c",
+              "name": "Eyebrow",
+              "fill": "#C97D60",
+              "content": "▸ 當季鮮花",
+              "fontFamily": "Archivo",
+              "fontSize": 12,
+              "fontWeight": "700",
+              "letterSpacing": 1
+            },
+            {
+              "type": "text",
+              "id": "mxhB7",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "法式優雅玫瑰花束",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 18,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "wgv5s",
+              "name": "BtnRow",
+              "width": "fill_container",
+              "padding": [
+                10,
+                0,
+                0,
+                0
+              ],
+              "children": [
+                {
+                  "id": "QgrIG",
+                  "type": "ref",
+                  "ref": "ftzKM",
+                  "name": "AddBtn",
+                  "width": "fill_container"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ruIaL",
+      "x": 1500,
+      "y": 474,
+      "name": "Home Page",
+      "width": 1440,
+      "fill": "$paper",
+      "layout": "vertical",
+      "children": [
+        {
+          "id": "C5nuD",
+          "type": "ref",
+          "ref": "u63KC",
+          "name": "Header",
+          "width": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "SOOQX",
+          "name": "Hero",
+          "clip": true,
+          "width": "fill_container",
+          "height": 560,
+          "fill": "#5C4A42",
+          "padding": [
+            0,
+            0,
+            0,
+            64
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "sRYcY",
+              "name": "HeroImage",
+              "metadata": {
+                "type": "unsplash",
+                "username": "lauralalis06",
+                "link": "https://unsplash.com/@lauralalis06",
+                "author": "Laura Martinez"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1766682946500-adb9964777e8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzYxNzV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": 600,
+              "height": 560
+            },
+            {
+              "type": "frame",
+              "id": "LCY76",
+              "name": "HeroText",
+              "width": 600,
+              "layout": "vertical",
+              "gap": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "pJrEM",
+                  "name": "Eyebrow",
+                  "fill": "$marigold",
+                  "content": "▸ 今日鮮花 / FRESH TODAY",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "700",
+                  "letterSpacing": 2
+                },
+                {
+                  "type": "text",
+                  "id": "n2aszs",
+                  "name": "H1",
+                  "fill": "$white",
+                  "textGrowth": "fixed-width",
+                  "width": 600,
+                  "content": "清晨花市\n直送的鮮度",
+                  "lineHeight": 1.05,
+                  "fontFamily": "Archivo",
+                  "fontSize": 72,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "HJFO0",
+                  "name": "Sub",
+                  "fill": "#C8CEDA",
+                  "textGrowth": "fixed-width",
+                  "width": 480,
+                  "content": "每天清晨從花市精選當季花材，由花藝師手工包裝，當日直送到你手中。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 17,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "frame",
+                  "id": "b41zJT",
+                  "name": "HeroBtn",
+                  "fill": "#C97D60",
+                  "cornerRadius": 6,
+                  "padding": [
+                    16,
+                    36
+                  ],
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "lCMIp",
+                      "name": "L",
+                      "fill": "$white",
+                      "content": "立即選購",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 16,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "u63KC",
+      "x": 1490,
+      "y": 327,
+      "name": "Header",
+      "reusable": true,
+      "width": 1440,
+      "height": 80,
+      "fill": "#5C4A42",
+      "padding": [
+        0,
+        48
+      ],
+      "justifyContent": "space_between",
+      "alignItems": "center",
+      "children": [
+        {
+          "type": "text",
+          "id": "pgikO",
+          "name": "Logo",
+          "fill": "$marigold",
+          "content": "花漾生活 FLOWER MKT",
+          "fontFamily": "Archivo",
+          "fontSize": 24,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "dcmhL",
+          "name": "Nav",
+          "gap": 32,
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "TvlHH",
+              "name": "商品列表",
+              "fill": "$white",
+              "content": "商品列表",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "R0999",
+              "name": "購物車",
+              "fill": "$white",
+              "content": "購物車",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "text",
+              "id": "PgZ9q",
+              "name": "我的訂單",
+              "fill": "$white",
+              "content": "我的訂單",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 15,
+              "fontWeight": "500"
+            },
+            {
+              "type": "frame",
+              "id": "hR3X9",
+              "name": "LoginBtn",
+              "fill": "#C97D60",
+              "cornerRadius": 6,
+              "padding": [
+                8,
+                20
+              ],
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "BCJEW",
+                  "name": "LoginLabel",
+                  "fill": "$white",
+                  "content": "登入",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "v8FUi",
+      "x": 1500,
+      "y": 1834,
+      "name": "Featured Section",
+      "clip": true,
+      "width": 1440,
+      "height": 640,
+      "fill": "#FBF6F0",
+      "layout": "vertical",
+      "gap": 28,
+      "padding": [
+        72,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "fHy3n",
+          "name": "SectionHead",
+          "width": 1312,
+          "height": 96,
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "dCKoO",
+              "name": "Eyebrow",
+              "fill": "#C97D60",
+              "content": "▸ 本季最受歡迎",
+              "fontFamily": "Archivo",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "PF7bP",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "content": "今日鮮花精選",
+              "fontFamily": "Archivo",
+              "fontSize": 40,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Hhipt",
+          "name": "ProductGrid",
+          "width": 1312,
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "Cwiql",
+              "name": "Card1",
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "YChwv",
+                  "name": "Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "nganduong93",
+                    "link": "https://unsplash.com/@nganduong93",
+                    "author": "Duong Ngan"
+                  },
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1727520327526-4b435667860a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3NTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 260
+                },
+                {
+                  "type": "frame",
+                  "id": "X28hhk",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": 140,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "JFrq6",
+                      "name": "Eye",
+                      "fill": "#C97D60",
+                      "content": "▸ 當季玫瑰",
+                      "fontFamily": "Archivo",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "L1FYJ",
+                      "name": "Tt",
+                      "fill": "#5C4A42",
+                      "content": "法式優雅玫瑰束",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GsRNY",
+                      "name": "Pr",
+                      "fill": "#C97D60",
+                      "content": "NT$ 880",
+                      "fontFamily": "Caveat",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "FOJjw",
+              "name": "陽光向日葵束",
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "J9mtNl",
+                  "name": "Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "thomasw",
+                    "link": "https://unsplash.com/@thomasw",
+                    "author": "Thomas William"
+                  },
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1521463405500-2bbe81bb2645?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3MjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 260
+                },
+                {
+                  "type": "frame",
+                  "id": "Pyay3",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": 140,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "L9Euw",
+                      "name": "Eye",
+                      "fill": "#C97D60",
+                      "content": "▸ 夏日限定",
+                      "fontFamily": "Archivo",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "ikGfS",
+                      "name": "Tt",
+                      "fill": "#5C4A42",
+                      "content": "陽光向日葵束",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "p9WbMq",
+                      "name": "Pr",
+                      "fill": "#C97D60",
+                      "content": "NT$ 620",
+                      "fontFamily": "Caveat",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "XH44I",
+              "name": "森林系桔梗",
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "Msnko",
+                  "name": "Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "anitaaustvika",
+                    "link": "https://unsplash.com/@anitaaustvika",
+                    "author": "Anita Austvika"
+                  },
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1680169246582-05d9e7b65dc3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3MjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 260
+                },
+                {
+                  "type": "frame",
+                  "id": "luFpJ",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": 140,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ybZrE",
+                      "name": "Eye",
+                      "fill": "#C97D60",
+                      "content": "▸ 療癒系",
+                      "fontFamily": "Archivo",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "mtBuk",
+                      "name": "Tt",
+                      "fill": "#5C4A42",
+                      "content": "森林系桔梗",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Z0DxJw",
+                      "name": "Pr",
+                      "fill": "#C97D60",
+                      "content": "NT$ 750",
+                      "fontFamily": "Caveat",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ta4Ku",
+              "name": "粉紅康乃馨",
+              "clip": true,
+              "width": "fill_container",
+              "height": 420,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "id": "w8Y9P",
+                  "name": "Img",
+                  "metadata": {
+                    "type": "unsplash",
+                    "username": "mrpugo",
+                    "link": "https://unsplash.com/@mrpugo",
+                    "author": "Mr. Pugo"
+                  },
+                  "fill": {
+                    "type": "image",
+                    "enabled": true,
+                    "url": "https://images.unsplash.com/photo-1769990878935-a7300c5e5825?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3MjZ8&ixlib=rb-4.1.0&q=80&w=1080",
+                    "mode": "fill"
+                  },
+                  "width": "fill_container",
+                  "height": 260
+                },
+                {
+                  "type": "frame",
+                  "id": "gUSom",
+                  "name": "Body",
+                  "width": "fill_container",
+                  "height": 140,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "padding": 18,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "ENYfU",
+                      "name": "Eye",
+                      "fill": "#C97D60",
+                      "content": "▸ 母親節",
+                      "fontFamily": "Archivo",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "NVQUV",
+                      "name": "Tt",
+                      "fill": "#5C4A42",
+                      "content": "粉紅康乃馨",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 18,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "A4D0X",
+                      "name": "Pr",
+                      "fill": "#C97D60",
+                      "content": "NT$ 580",
+                      "fontFamily": "Caveat",
+                      "fontSize": 30,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "EDCPU",
+      "x": 1500,
+      "y": 2554,
+      "name": "Brand Story",
+      "clip": true,
+      "width": 1440,
+      "height": 420,
+      "fill": "#5C4A42",
+      "children": [
+        {
+          "type": "rectangle",
+          "id": "A9Oq7",
+          "name": "StoryImg",
+          "metadata": {
+            "type": "unsplash",
+            "username": "gloriaviktoriia",
+            "link": "https://unsplash.com/@gloriaviktoriia",
+            "author": "Viktoriia Yatsentiuk"
+          },
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1709294728705-d107d3b4f2d3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3Njl8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "width": 560,
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "uuDdC",
+          "name": "StoryBody",
+          "width": "fill_container",
+          "height": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "padding": [
+            60,
+            64
+          ],
+          "justifyContent": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "osEYv",
+              "name": "Eye",
+              "fill": "#F4B8A8",
+              "content": "▸ 我們的故事",
+              "fontFamily": "Archivo",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "poKwg",
+              "name": "Title",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "從花市到你家\n只隔一個清晨",
+              "lineHeight": 1.2,
+              "fontFamily": "Archivo",
+              "fontSize": 36,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "bZFAE",
+              "name": "Desc",
+              "fill": "#C8CEDA",
+              "textGrowth": "fixed-width",
+              "width": 560,
+              "content": "花漾生活成立於 2020 年，每天清晨直接向花市採購，由花藝師現場手工包裝，省去中間囤貨環節，讓每一束花都保有市集現場的新鮮與生命力。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "B3Lkn",
+      "x": 1500,
+      "y": 3054,
+      "name": "Testimonials",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "layout": "vertical",
+      "gap": 32,
+      "padding": [
+        72,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "U7UoRH",
+          "name": "Head",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 8,
+          "children": [
+            {
+              "type": "text",
+              "id": "nokzZ",
+              "name": "Eye",
+              "fill": "#C97D60",
+              "content": "▸ 顧客怎麼說",
+              "fontFamily": "Archivo",
+              "fontSize": 14,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "text",
+              "id": "rF1Hf",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "content": "花束好評分享",
+              "fontFamily": "Archivo",
+              "fontSize": 36,
+              "fontWeight": "800"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HHaqC",
+          "name": "Row",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "OgUQR",
+              "name": "小美Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "mURPg",
+                  "name": "Stars",
+                  "fill": "#F4B8A8",
+                  "content": "★★★★★",
+                  "fontFamily": "Archivo",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "idQn1",
+                  "name": "Text",
+                  "fill": "#5A6275",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "花束非常漂亮，包裝精緻，送給媽媽她超開心的！配送也很準時。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "IFBu7",
+                  "name": "Name",
+                  "fill": "#9AA0B0",
+                  "content": "— 小美",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "s54v8",
+              "name": "阿明Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "T2i5o5",
+                  "name": "Stars",
+                  "fill": "#F4B8A8",
+                  "content": "★★★★★",
+                  "fontFamily": "Archivo",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "DMlLr",
+                  "name": "Text",
+                  "fill": "#5A6275",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "第二次購買了，品質一如既往的好。花材新鮮，整體搭配很有美感。",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "XXZmY",
+                  "name": "Name",
+                  "fill": "#9AA0B0",
+                  "content": "— 阿明",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "RfTXU",
+              "name": "大衛Card",
+              "width": "fill_container",
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 10,
+              "padding": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tIta4",
+                  "name": "Stars",
+                  "fill": "#F4B8A8",
+                  "content": "★★★★★",
+                  "fontFamily": "Archivo",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "MQiBJ",
+                  "name": "Text",
+                  "fill": "#5A6275",
+                  "textGrowth": "fixed-width",
+                  "width": "fill_container",
+                  "content": "女朋友收到花束超感動！會再回購的，推薦給大家！",
+                  "lineHeight": 1.6,
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "LDHaP",
+                  "name": "Name",
+                  "fill": "#9AA0B0",
+                  "content": "— 大衛",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "j3cY8",
+      "x": 1500,
+      "y": 3546,
+      "name": "Service Features",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "gap": 24,
+      "padding": [
+        0,
+        64,
+        72,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "l0pCNi",
+          "name": "快速配送",
+          "width": "fill_container",
+          "fill": "#5C4A42",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 28,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 3,
+              "id": "mqLkY",
+              "name": "Dot",
+              "fill": "#C97D60",
+              "width": 32,
+              "height": 6
+            },
+            {
+              "type": "text",
+              "id": "XQAes",
+              "name": "Title",
+              "fill": "#FFFFFF",
+              "content": "快速配送",
+              "fontFamily": "Archivo",
+              "fontSize": 20,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "rbGgF",
+              "name": "Desc",
+              "fill": "#C8CEDA",
+              "content": "台北市區當日配送",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "nAgMS",
+          "name": "精美包裝",
+          "width": "fill_container",
+          "fill": "#5C4A42",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 28,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 3,
+              "id": "dBlK8",
+              "name": "Dot",
+              "fill": "#F4B8A8",
+              "width": 32,
+              "height": 6
+            },
+            {
+              "type": "text",
+              "id": "kbO7H",
+              "name": "Title",
+              "fill": "#FFFFFF",
+              "content": "精美包裝",
+              "fontFamily": "Archivo",
+              "fontSize": 20,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "iRUlr",
+              "name": "Desc",
+              "fill": "#C8CEDA",
+              "content": "每束花都經過精心包裝",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v1REK",
+          "name": "滿額免運",
+          "width": "fill_container",
+          "fill": "#5C4A42",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 28,
+          "children": [
+            {
+              "type": "rectangle",
+              "cornerRadius": 3,
+              "id": "y5IfPo",
+              "name": "Dot",
+              "fill": "#8FA888",
+              "width": 32,
+              "height": 6
+            },
+            {
+              "type": "text",
+              "id": "iDWgI",
+              "name": "Title",
+              "fill": "#FFFFFF",
+              "content": "滿額免運",
+              "fontFamily": "Archivo",
+              "fontSize": 20,
+              "fontWeight": "800"
+            },
+            {
+              "type": "text",
+              "id": "x3ybJz",
+              "name": "Desc",
+              "fill": "#C8CEDA",
+              "content": "消費滿 NT$ 500 免運費",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 14,
+              "fontWeight": "normal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PdmSx",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "PL Header",
+      "x": 1500,
+      "y": 3869,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "TwYFi",
+      "x": 1500,
+      "y": 3949,
+      "name": "PL TitleBar",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "layout": "vertical",
+      "gap": 8,
+      "padding": [
+        48,
+        64,
+        24,
+        64
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "PBvMg",
+          "name": "Eye",
+          "fill": "#C97D60",
+          "content": "▸ 全部商品",
+          "fontFamily": "Archivo",
+          "fontSize": 14,
+          "fontWeight": "700",
+          "letterSpacing": 2
+        },
+        {
+          "type": "text",
+          "id": "PTWGV",
+          "name": "Title",
+          "fill": "#5C4A42",
+          "content": "探索所有花藝",
+          "fontFamily": "Archivo",
+          "fontSize": 40,
+          "fontWeight": "800"
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "VL9s2",
+      "x": 1500,
+      "y": 4112,
+      "name": "PL Grid Row1",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "gap": 24,
+      "padding": [
+        0,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "v3Ol3m",
+          "name": "法式優雅玫瑰束",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "gFTLa",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "nganduong93",
+                "link": "https://unsplash.com/@nganduong93",
+                "author": "Duong Ngan"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1727520327526-4b435667860a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY3NTF8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "hyDLV",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "TVdAn",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 當季玫瑰",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "bHJmm",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "法式優雅玫瑰束",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "JZ3sy",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 880",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "e872MU",
+          "name": "陽光向日葵束",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Vdsfb",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "sonya_vel",
+                "link": "https://unsplash.com/@sonya_vel",
+                "author": "Sonia"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1633105617464-5f6d3c62ff63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY4NjR8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "W6qYa",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nwNrD",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 夏日限定",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "eztwa",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "陽光向日葵束",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "q8lhvq",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 620",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "c8D9E3",
+          "name": "森林系桔梗",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "DcgsQ",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "micheile",
+                "link": "https://unsplash.com/@micheile",
+                "author": "micheile henderson"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1612460862196-72dad730ded2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY4NjV8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "wmK5P",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tlVm0",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 療癒系",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "ox5KK",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "森林系桔梗",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "s6lqQD",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 750",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "cnNJL",
+      "x": 1500,
+      "y": 4532,
+      "name": "PL Grid Row2",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "gap": 24,
+      "padding": [
+        0,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "B6jbGY",
+          "name": "粉紅康乃馨",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "Hl7t3",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "miawawa",
+                "link": "https://unsplash.com/@miawawa",
+                "author": "Elodie Debard"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1777832993565-f7b180079c27?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY4ODh8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "OZToG",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vXI8X",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 母親節",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "IczDo",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "粉紅康乃馨",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "QEbYu",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 580",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "U6MTQ4",
+          "name": "白色百合花束",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "IbAK3",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "kristina001",
+                "link": "https://unsplash.com/@kristina001",
+                "author": "Kristina Kutleša"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1728071477781-fefc73636aae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY4ODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "K4w5Zv",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vbLYz",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 純淨系",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "vqllV",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "白色百合花束",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xuOlE",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 920",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "QhT7H",
+          "name": "繡球花禮盒",
+          "clip": true,
+          "width": "fill_container",
+          "height": 420,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "rectangle",
+              "id": "lE4nh",
+              "name": "Img",
+              "metadata": {
+                "type": "unsplash",
+                "username": "raeniver",
+                "link": "https://unsplash.com/@raeniver",
+                "author": "Rebecca Niver"
+              },
+              "fill": {
+                "type": "image",
+                "enabled": true,
+                "url": "https://images.unsplash.com/photo-1652359811169-55781c536e63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY4ODl8&ixlib=rb-4.1.0&q=80&w=1080",
+                "mode": "fill"
+              },
+              "width": "fill_container",
+              "height": 260
+            },
+            {
+              "type": "frame",
+              "id": "xIUbK",
+              "name": "Body",
+              "width": "fill_container",
+              "height": 140,
+              "layout": "vertical",
+              "gap": 6,
+              "padding": 18,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "M3WZPs",
+                  "name": "Eye",
+                  "fill": "#C97D60",
+                  "content": "▸ 精緻禮盒",
+                  "fontFamily": "Archivo",
+                  "fontSize": 12,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "nRHzh",
+                  "name": "Tt",
+                  "fill": "#5C4A42",
+                  "content": "繡球花禮盒",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 18,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "C6eQIt",
+                  "name": "Pr",
+                  "fill": "#C97D60",
+                  "content": "NT$ 1050",
+                  "fontFamily": "Caveat",
+                  "fontSize": 30,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "qUKY2",
+      "x": 1500,
+      "y": 4952,
+      "name": "PL Pagination",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "gap": 10,
+      "padding": [
+        24,
+        64,
+        72,
+        64
+      ],
+      "justifyContent": "center",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Afnib",
+          "name": "Page1",
+          "width": 44,
+          "height": 44,
+          "fill": "#C97D60",
+          "cornerRadius": 6,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "UaYZE",
+              "fill": "#FFFFFF",
+              "content": "1",
+              "fontFamily": "Archivo",
+              "fontSize": 15,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "HIR7i",
+          "name": "Page2",
+          "width": 44,
+          "height": 44,
+          "fill": "#FFFFFF",
+          "cornerRadius": 6,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "W7qkE",
+              "fill": "#5C4A42",
+              "content": "2",
+              "fontFamily": "Archivo",
+              "fontSize": 15,
+              "fontWeight": "700"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "v9Exu",
+          "name": "Page3",
+          "width": 44,
+          "height": 44,
+          "fill": "#FFFFFF",
+          "cornerRadius": 6,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "o2SbD5",
+              "fill": "#5C4A42",
+              "content": "3",
+              "fontFamily": "Archivo",
+              "fontSize": 15,
+              "fontWeight": "700"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Whf4P",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "PD Header",
+      "x": 1500,
+      "y": 5212,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "pzE6E",
+      "x": 1500,
+      "y": 5292,
+      "name": "PD Main",
+      "width": 1440,
+      "height": 560,
+      "fill": "#FBF6F0",
+      "gap": 48,
+      "padding": [
+        56,
+        64
+      ],
+      "children": [
+        {
+          "type": "rectangle",
+          "cornerRadius": 8,
+          "id": "tu08B",
+          "name": "PDImage",
+          "metadata": {
+            "type": "unsplash",
+            "username": "sonika_agarwal",
+            "link": "https://unsplash.com/@sonika_agarwal",
+            "author": "Sonika Agarwal"
+          },
+          "fill": {
+            "type": "image",
+            "enabled": true,
+            "url": "https://images.unsplash.com/photo-1641296833043-e382b24d327d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4NDM0ODN8MHwxfHJhbmRvbXx8fHx8fHx8fDE3ODE2NzY5MTR8&ixlib=rb-4.1.0&q=80&w=1080",
+            "mode": "fill"
+          },
+          "width": 560,
+          "height": "fill_container"
+        },
+        {
+          "type": "frame",
+          "id": "vvKiI",
+          "name": "PDInfo",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "VhhLe",
+              "name": "Eye",
+              "fill": "#C97D60",
+              "content": "▸ 當季玫瑰",
+              "fontFamily": "Archivo",
+              "fontSize": 13,
+              "fontWeight": "700",
+              "letterSpacing": 1.5
+            },
+            {
+              "type": "text",
+              "id": "vTQ4c",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "法式優雅玫瑰花束",
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 32,
+              "fontWeight": "700"
+            },
+            {
+              "type": "frame",
+              "id": "WTIgC",
+              "name": "PriceWrap",
+              "width": 160,
+              "height": 70,
+              "layout": "none",
+              "children": [
+                {
+                  "type": "rectangle",
+                  "cornerRadius": 4,
+                  "id": "D3HTPF",
+                  "x": 0,
+                  "y": 10,
+                  "name": "PTBg",
+                  "rotation": -3.0000000000000004,
+                  "fill": "#F4B8A8",
+                  "width": 150,
+                  "height": 54,
+                  "stroke": "#5C4A42",
+                  "strokeWidth": 2
+                },
+                {
+                  "type": "text",
+                  "id": "J4wMe",
+                  "x": 16,
+                  "y": 8,
+                  "name": "PT",
+                  "rotation": -3.0000000000000004,
+                  "fill": "#5C4A42",
+                  "content": "NT$ 880",
+                  "fontFamily": "Caveat",
+                  "fontSize": 36,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "text",
+              "id": "SNj10",
+              "name": "Desc",
+              "fill": "#5A6275",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "精選 12 朵當季玫瑰，搭配尤加利葉與滿天星，由花藝師現場手工包裝。適合送禮、告白、紀念日，也適合單純寵愛自己。",
+              "lineHeight": 1.7,
+              "fontFamily": "Noto Sans TC",
+              "fontSize": 15,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ZobSU",
+              "name": "QtyRow",
+              "gap": 16,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "yteaT",
+                  "name": "QtyBox",
+                  "cornerRadius": 6,
+                  "stroke": "#5C4A42",
+                  "strokeWidth": 2,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Ejzdj",
+                      "name": "Minus",
+                      "width": 40,
+                      "height": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "jcvRf",
+                          "fill": "#5C4A42",
+                          "content": "−",
+                          "fontFamily": "Archivo",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Xf6lX",
+                      "name": "QtyNum",
+                      "width": 40,
+                      "height": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "yYeMA",
+                          "fill": "#5C4A42",
+                          "content": "1",
+                          "fontFamily": "Archivo",
+                          "fontSize": 15,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "q8G3Z",
+                      "name": "Plus",
+                      "width": 40,
+                      "height": 40,
+                      "justifyContent": "center",
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "dS0i6",
+                          "fill": "#5C4A42",
+                          "content": "+",
+                          "fontFamily": "Archivo",
+                          "fontSize": 18,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "cZnxt",
+                  "name": "AddBtn",
+                  "fill": "#C97D60",
+                  "cornerRadius": 6,
+                  "padding": [
+                    14,
+                    48
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "b4nMD",
+                      "fill": "#FFFFFF",
+                      "content": "加入購物車",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "PJWuY",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "Cart Header",
+      "x": 1500,
+      "y": 5972,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "rRCVJ",
+      "x": 1500,
+      "y": 6052,
+      "name": "Cart Main",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "gap": 32,
+      "padding": [
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "ag7EH",
+          "name": "CartLeft",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 16,
+          "children": [
+            {
+              "type": "text",
+              "id": "EcFvq",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "content": "購物車",
+              "fontFamily": "Archivo",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "bMP36",
+              "name": "ShipBanner",
+              "width": "fill_container",
+              "fill": "#F4B8A8",
+              "cornerRadius": 6,
+              "padding": 14,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "EGb5U",
+                  "fill": "#5C4A42",
+                  "content": "▸ 再買 NT$ 120 即可享免運費！",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "EBWs4",
+              "name": "ItemsBox",
+              "clip": true,
+              "width": "fill_container",
+              "height": 224,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "G4Q3B",
+                  "name": "法式優雅玫瑰束Row",
+                  "width": "fill_container",
+                  "height": 112,
+                  "gap": 16,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 6,
+                      "id": "zlBze",
+                      "name": "Thumb",
+                      "fill": "#E8E2D6",
+                      "width": 72,
+                      "height": 72
+                    },
+                    {
+                      "type": "frame",
+                      "id": "fDtGu",
+                      "name": "Info",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "s2o7zc",
+                          "name": "Name",
+                          "fill": "#5C4A42",
+                          "content": "法式優雅玫瑰束",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "KEHWU",
+                          "name": "Price",
+                          "fill": "#C97D60",
+                          "content": "NT$ 880",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "ehLeT",
+                      "name": "QtyBox",
+                      "cornerRadius": 6,
+                      "stroke": "#5C4A42",
+                      "strokeWidth": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "u1gPVQ",
+                          "name": "M",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "eWTgb",
+                              "fill": "#5C4A42",
+                              "content": "−",
+                              "fontFamily": "Archivo",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XI7uW",
+                          "name": "N",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "wy4PG",
+                              "fill": "#5C4A42",
+                              "content": "2",
+                              "fontFamily": "Archivo",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "L8VNqr",
+                          "name": "P",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "lFIrS",
+                              "fill": "#5C4A42",
+                              "content": "+",
+                              "fontFamily": "Archivo",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "WiThR",
+                      "name": "Subtotal",
+                      "fill": "#5C4A42",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "NT$ 1,760",
+                      "textAlign": "right",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "XGo8I",
+                      "name": "Del",
+                      "fill": "#9AA0B0",
+                      "content": "✕",
+                      "fontFamily": "Archivo",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Y4VRVQ",
+                  "name": "陽光向日葵束Row",
+                  "width": "fill_container",
+                  "height": 112,
+                  "gap": 16,
+                  "padding": 20,
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "line",
+                      "id": "djlYB",
+                      "x": 0,
+                      "y": 0,
+                      "enabled": false,
+                      "width": 0,
+                      "height": 0
+                    },
+                    {
+                      "type": "rectangle",
+                      "cornerRadius": 6,
+                      "id": "HRg9m",
+                      "name": "Thumb",
+                      "fill": "#E8E2D6",
+                      "width": 72,
+                      "height": 72
+                    },
+                    {
+                      "type": "frame",
+                      "id": "j6zvrT",
+                      "name": "Info",
+                      "width": 280,
+                      "layout": "vertical",
+                      "gap": 4,
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GJmVz",
+                          "name": "Name",
+                          "fill": "#5C4A42",
+                          "content": "陽光向日葵束",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 15,
+                          "fontWeight": "700"
+                        },
+                        {
+                          "type": "text",
+                          "id": "RUbpe",
+                          "name": "Price",
+                          "fill": "#C97D60",
+                          "content": "NT$ 620",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 13,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "YBl5P",
+                      "name": "QtyBox",
+                      "cornerRadius": 6,
+                      "stroke": "#5C4A42",
+                      "strokeWidth": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "xTSME",
+                          "name": "M",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "OTdGZ",
+                              "fill": "#5C4A42",
+                              "content": "−",
+                              "fontFamily": "Archivo",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wU9xf",
+                          "name": "N",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "Rgr4Q",
+                              "fill": "#5C4A42",
+                              "content": "1",
+                              "fontFamily": "Archivo",
+                              "fontSize": 14,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uhcT5",
+                          "name": "P",
+                          "width": 36,
+                          "height": 36,
+                          "justifyContent": "center",
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "text",
+                              "id": "ghGJd",
+                              "fill": "#5C4A42",
+                              "content": "+",
+                              "fontFamily": "Archivo",
+                              "fontSize": 16,
+                              "fontWeight": "normal"
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "id": "D7vWVi",
+                      "name": "Subtotal",
+                      "fill": "#5C4A42",
+                      "textGrowth": "fixed-width",
+                      "width": 120,
+                      "content": "NT$ 620",
+                      "textAlign": "right",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "text",
+                      "id": "DCj1b",
+                      "name": "Del",
+                      "fill": "#9AA0B0",
+                      "content": "✕",
+                      "fontFamily": "Archivo",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pD3Ek",
+          "name": "CartSummary",
+          "width": 380,
+          "height": 280,
+          "fill": "#5C4A42",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "mVJnP",
+              "name": "STitle",
+              "fill": "#FFFFFF",
+              "content": "訂單摘要",
+              "fontFamily": "Archivo",
+              "fontSize": 18,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "C3ES3",
+              "name": "SRow1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "jHijx",
+                  "fill": "#C8CEDA",
+                  "content": "商品小計",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "d4hNx7",
+                  "fill": "#FFFFFF",
+                  "content": "NT$ 2,380",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "WUMXm",
+              "name": "SRow2",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "vbJge",
+                  "fill": "#C8CEDA",
+                  "content": "運費",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Rci6d",
+                  "fill": "#FFFFFF",
+                  "content": "NT$ 150",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "MGVGc",
+              "name": "SRow3",
+              "width": "fill_container",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Ab7e4",
+                  "fill": "#FFFFFF",
+                  "content": "總計",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "xfkkO",
+                  "fill": "#F4B8A8",
+                  "content": "NT$ 2,530",
+                  "fontFamily": "Caveat",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "eT38e",
+              "name": "CheckoutBtn",
+              "width": "fill_container",
+              "fill": "#C97D60",
+              "cornerRadius": 6,
+              "padding": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "eHvMJ",
+                  "fill": "#FFFFFF",
+                  "content": "前往結帳",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "KUkgq",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "Checkout Header",
+      "x": 1500,
+      "y": 6623,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "W8zfnH",
+      "x": 1500,
+      "y": 6703,
+      "name": "Checkout Main",
+      "width": 1440,
+      "height": 620,
+      "fill": "#FBF6F0",
+      "gap": 32,
+      "padding": [
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "D604WS",
+          "name": "CKLeft",
+          "width": "fill_container",
+          "height": 560,
+          "layout": "vertical",
+          "gap": 20,
+          "children": [
+            {
+              "type": "text",
+              "id": "aHDgp",
+              "name": "Title",
+              "fill": "#5C4A42",
+              "content": "結帳資訊",
+              "fontFamily": "Archivo",
+              "fontSize": 32,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "J5FCn1",
+              "name": "FormBox",
+              "width": "fill_container",
+              "height": 480,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "l3jNK",
+                  "name": "收件人姓名Field",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "z71pt1",
+                      "fill": "#5C4A42",
+                      "content": "收件人姓名",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "K0zsDW",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YglZZ",
+                          "fill": "#9AA0B0",
+                          "content": "王小美",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "mMN0D",
+                  "name": "聯絡電話Field",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "qCQl3",
+                      "fill": "#5C4A42",
+                      "content": "聯絡電話",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "AXIjG",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "GKSjG",
+                          "fill": "#9AA0B0",
+                          "content": "0912-345-678",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "h7FLT",
+                  "name": "收件地址Field",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "xYvA3",
+                      "fill": "#5C4A42",
+                      "content": "收件地址",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "wKsUX",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "ZF85Z",
+                          "fill": "#9AA0B0",
+                          "content": "台北市大安區花漾路 123 號",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Pjuug",
+                  "name": "備註（選填）Field",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "hhAGK",
+                      "fill": "#5C4A42",
+                      "content": "備註（選填）",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "D7qk3C",
+                      "name": "Input",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "wCnyE",
+                          "fill": "#9AA0B0",
+                          "content": "請於下午配送，謝謝！",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ZHw0S",
+          "name": "CKSummary",
+          "width": 380,
+          "height": 280,
+          "fill": "#5C4A42",
+          "cornerRadius": 8,
+          "layout": "vertical",
+          "gap": 14,
+          "padding": 28,
+          "children": [
+            {
+              "type": "text",
+              "id": "A8dvJ",
+              "name": "STitle",
+              "fill": "#FFFFFF",
+              "content": "訂單摘要",
+              "fontFamily": "Archivo",
+              "fontSize": 18,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "x2e5xN",
+              "name": "R1",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "q8cL9u",
+                  "fill": "#C8CEDA",
+                  "content": "法式優雅玫瑰束 x2",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "pcgnw",
+                  "fill": "#FFFFFF",
+                  "content": "NT$ 1,760",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "H7xR6",
+              "name": "R2",
+              "width": "fill_container",
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "ZZmsN",
+                  "fill": "#C8CEDA",
+                  "content": "陽光向日葵束 x1",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "tJTaP",
+                  "fill": "#FFFFFF",
+                  "content": "NT$ 620",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "R7mZw3",
+              "name": "R3",
+              "width": "fill_container",
+              "padding": [
+                12,
+                0,
+                0,
+                0
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "z48tW",
+                  "fill": "#FFFFFF",
+                  "content": "總計",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "EMvjy",
+                  "fill": "#F4B8A8",
+                  "content": "NT$ 2,530",
+                  "fontFamily": "Caveat",
+                  "fontSize": 28,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "yTymI",
+              "name": "PayBtn",
+              "width": "fill_container",
+              "fill": "#C97D60",
+              "cornerRadius": 6,
+              "padding": 16,
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tfy1o",
+                  "fill": "#FFFFFF",
+                  "content": "確認送出訂單",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bjeNH",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "Login Header",
+      "x": 1500,
+      "y": 7443,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "OlEHT",
+      "x": 1500,
+      "y": 7523,
+      "name": "Login Main",
+      "width": 1440,
+      "height": 680,
+      "fill": "#FBF6F0",
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "Q8i7U5",
+          "layoutPosition": "absolute",
+          "x": 500,
+          "y": 80,
+          "name": "LoginCard",
+          "clip": true,
+          "width": 440,
+          "height": 520,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "tqQIf",
+              "name": "TabRow",
+              "width": "fill_container",
+              "height": 56,
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "dgu1e",
+                  "name": "LoginTab",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#5C4A42",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "MnZu7",
+                      "fill": "#FFFFFF",
+                      "content": "登入",
+                      "fontFamily": "Archivo",
+                      "fontSize": 15,
+                      "fontWeight": "800"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "G5Tca",
+                  "name": "RegTab",
+                  "width": "fill_container",
+                  "height": 56,
+                  "fill": "#FFFFFF",
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "BI6BK",
+                      "fill": "#9AA0B0",
+                      "content": "註冊",
+                      "fontFamily": "Archivo",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "or2km",
+              "name": "FormArea",
+              "width": "fill_container",
+              "height": 464,
+              "layout": "vertical",
+              "gap": 18,
+              "padding": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "O3cEvE",
+                  "fill": "#C97D60",
+                  "content": "▸ 歡迎回到花漾生活",
+                  "fontFamily": "Archivo",
+                  "fontSize": 13,
+                  "fontWeight": "700",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "frame",
+                  "id": "E15lr",
+                  "name": "電子郵件F",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "CzzYu",
+                      "fill": "#5C4A42",
+                      "content": "電子郵件",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "TCMqL",
+                      "name": "IB",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "WfR6E",
+                          "fill": "#9AA0B0",
+                          "content": "you@example.com",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "MYmwR",
+                  "name": "密碼F",
+                  "width": "fill_container",
+                  "height": 74,
+                  "layout": "vertical",
+                  "gap": 6,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "m3uxGd",
+                      "fill": "#5C4A42",
+                      "content": "密碼",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 13,
+                      "fontWeight": "700"
+                    },
+                    {
+                      "type": "frame",
+                      "id": "zBbc7",
+                      "name": "IB",
+                      "width": "fill_container",
+                      "height": 44,
+                      "cornerRadius": 6,
+                      "stroke": "#9AA0B0",
+                      "strokeWidth": 1,
+                      "padding": [
+                        0,
+                        14
+                      ],
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "egFVP",
+                          "fill": "#9AA0B0",
+                          "content": "••••••••",
+                          "fontFamily": "Noto Sans TC",
+                          "fontSize": 14,
+                          "fontWeight": "normal"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "W1GcOC",
+                  "name": "LoginBtn",
+                  "width": "fill_container",
+                  "height": 48,
+                  "fill": "#C97D60",
+                  "cornerRadius": 6,
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "gWDvd",
+                      "fill": "#FFFFFF",
+                      "content": "登入",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 15,
+                      "fontWeight": "700"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "QIA83",
+      "type": "ref",
+      "ref": "u63KC",
+      "name": "Orders Header",
+      "x": 1500,
+      "y": 8323,
+      "width": 1440
+    },
+    {
+      "type": "frame",
+      "id": "mn3kC",
+      "x": 3130,
+      "y": 327,
+      "name": "Orders Main",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "layout": "vertical",
+      "gap": 20,
+      "padding": [
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "text",
+          "id": "F3IVTZ",
+          "name": "Title",
+          "fill": "#5C4A42",
+          "content": "我的訂單",
+          "fontFamily": "Archivo",
+          "fontSize": 32,
+          "fontWeight": "800"
+        },
+        {
+          "type": "frame",
+          "id": "o8SsU",
+          "name": "#FM20260601Card",
+          "width": "fill_container",
+          "height": 88,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "padding": [
+            0,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "A9viqM",
+              "name": "Left",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GoFJZ",
+                  "fill": "#5C4A42",
+                  "content": "#FM20260601",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "O4a2uJ",
+                  "fill": "#9AA0B0",
+                  "content": "2026/06/01",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "bZg7B",
+              "name": "Right",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "qtAMR",
+                  "name": "Badge",
+                  "fill": "#8FA888",
+                  "cornerRadius": 14,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "E593e9",
+                      "fill": "#FFFFFF",
+                      "content": "已付款",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "aE4yX",
+                  "fill": "#C97D60",
+                  "content": "NT$ 1,760",
+                  "fontFamily": "Caveat",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "pDHBY",
+          "name": "#FM20260530Card",
+          "width": "fill_container",
+          "height": 88,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "padding": [
+            0,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "QJHmv",
+              "name": "Left",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "zFuC4",
+                  "fill": "#5C4A42",
+                  "content": "#FM20260530",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "SAmrK",
+                  "fill": "#9AA0B0",
+                  "content": "2026/05/30",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "V1JoT3",
+              "name": "Right",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "UBqHc",
+                  "name": "Badge",
+                  "fill": "#F4B8A8",
+                  "cornerRadius": 14,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "p8tZjJ",
+                      "fill": "#FFFFFF",
+                      "content": "待付款",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "l2iKp",
+                  "fill": "#C97D60",
+                  "content": "NT$ 880",
+                  "fontFamily": "Caveat",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "oJHFv",
+          "name": "#FM20260520Card",
+          "width": "fill_container",
+          "height": 88,
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "padding": [
+            0,
+            28
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "frame",
+              "id": "FCfKg",
+              "name": "Left",
+              "layout": "vertical",
+              "gap": 4,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "aTgKV",
+                  "fill": "#5C4A42",
+                  "content": "#FM20260520",
+                  "fontFamily": "Archivo",
+                  "fontSize": 16,
+                  "fontWeight": "800"
+                },
+                {
+                  "type": "text",
+                  "id": "a8zN22",
+                  "fill": "#9AA0B0",
+                  "content": "2026/05/20",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "e34xa",
+              "name": "Right",
+              "gap": 20,
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "I4KAG",
+                  "name": "Badge",
+                  "fill": "#5C4A42",
+                  "cornerRadius": 14,
+                  "padding": [
+                    6,
+                    16
+                  ],
+                  "justifyContent": "center",
+                  "alignItems": "center",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "y3IyKv",
+                      "fill": "#FFFFFF",
+                      "content": "已完成",
+                      "fontFamily": "Noto Sans TC",
+                      "fontSize": 12,
+                      "fontWeight": "700"
+                    }
+                  ]
+                },
+                {
+                  "type": "text",
+                  "id": "ELVGl",
+                  "fill": "#C97D60",
+                  "content": "NT$ 2,530",
+                  "fontFamily": "Caveat",
+                  "fontSize": 24,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "oOQ5n",
+      "x": 3130,
+      "y": 873,
+      "name": "Order Detail Main",
+      "width": 1440,
+      "fill": "#FBF6F0",
+      "layout": "vertical",
+      "gap": 24,
+      "padding": [
+        48,
+        64
+      ],
+      "children": [
+        {
+          "type": "frame",
+          "id": "OPS31",
+          "name": "TitleRow",
+          "width": "fill_container",
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "iIc8l",
+              "fill": "#5C4A42",
+              "content": "訂單詳情 #FM20260601",
+              "fontFamily": "Archivo",
+              "fontSize": 28,
+              "fontWeight": "800"
+            },
+            {
+              "type": "frame",
+              "id": "M8h80",
+              "name": "StatusBadge",
+              "fill": "#8FA888",
+              "cornerRadius": 16,
+              "padding": [
+                8,
+                20
+              ],
+              "justifyContent": "center",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "x4LlwJ",
+                  "fill": "#FFFFFF",
+                  "content": "已付款",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "DC3iH",
+          "name": "InfoRow",
+          "width": "fill_container",
+          "gap": 24,
+          "children": [
+            {
+              "type": "frame",
+              "id": "PAc6z",
+              "name": "ShipBox",
+              "width": "fill_container",
+              "height": 120,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HX5HK",
+                  "fill": "#C97D60",
+                  "content": "▸ 收件資訊",
+                  "fontFamily": "Archivo",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "aU44p",
+                  "fill": "#5C4A42",
+                  "content": "王小美 ・ 0912-345-678",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "WSAZk",
+                  "fill": "#5A6275",
+                  "content": "台北市大安區花漾路 123 號",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "qGFZN",
+              "name": "DateBox",
+              "width": "fill_container",
+              "height": 120,
+              "fill": "#FFFFFF",
+              "cornerRadius": 8,
+              "stroke": "#5C4A42",
+              "strokeWidth": 2,
+              "layout": "vertical",
+              "gap": 8,
+              "padding": 20,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "MrLfC",
+                  "fill": "#C97D60",
+                  "content": "▸ 訂單資訊",
+                  "fontFamily": "Archivo",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "xB8YZ",
+                  "fill": "#5C4A42",
+                  "content": "訂購日期：2026/06/01",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "nK8x1",
+                  "fill": "#5A6275",
+                  "content": "付款方式：信用卡",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "kjcxM",
+          "name": "ItemsTable",
+          "clip": true,
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "cornerRadius": 8,
+          "stroke": "#5C4A42",
+          "strokeWidth": 2,
+          "layout": "vertical",
+          "children": [
+            {
+              "type": "frame",
+              "id": "xJ0Wt",
+              "name": "HeaderRow",
+              "width": "fill_container",
+              "height": 48,
+              "fill": "#5C4A42",
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "Za00V",
+                  "fill": "#FFFFFF",
+                  "content": "商品",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                },
+                {
+                  "type": "text",
+                  "id": "nG6hK",
+                  "fill": "#FFFFFF",
+                  "content": "小計",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 13,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "w01k02",
+              "name": "ItemRow",
+              "width": "fill_container",
+              "height": 90,
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "space_between",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "nt0VU",
+                  "fill": "#5C4A42",
+                  "content": "法式優雅玫瑰束 × 2",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 15,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "ry7yl",
+                  "fill": "#C97D60",
+                  "content": "NT$ 1,760",
+                  "fontFamily": "Caveat",
+                  "fontSize": 22,
+                  "fontWeight": "700"
+                }
+              ]
+            },
+            {
+              "type": "frame",
+              "id": "Ep3Fe",
+              "name": "TotalRow",
+              "width": "fill_container",
+              "height": 64,
+              "fill": "#FBF6F0",
+              "padding": [
+                0,
+                24
+              ],
+              "justifyContent": "end",
+              "alignItems": "center",
+              "children": [
+                {
+                  "type": "text",
+                  "id": "UHoaQ",
+                  "fill": "#5A6275",
+                  "content": "訂單總計：",
+                  "fontFamily": "Noto Sans TC",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "dHVAd",
+                  "fill": "#5C4A42",
+                  "content": "NT$ 1,760",
+                  "fontFamily": "Archivo",
+                  "fontSize": 18,
+                  "fontWeight": "800"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "themes": {
+    "Mode": [
+      "Light",
+      "Dark"
+    ]
+  },
+  "variables": {
+    "--sidebar": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#18181b",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#fafafa"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#ffffff1a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2a2a30",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#18181b"
+        },
+        {
+          "value": "#fafafa",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--sidebar-ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#71717a"
+        },
+        {
+          "value": "#71717a",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--background": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--card-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FFFFFF"
+        },
+        {
+          "value": "#1A1A1A",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--popover-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#FF8400"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--primary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E7E8E5"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--secondary-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#FFFFFF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--muted-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#B8B9B6",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#F2F3F0"
+        },
+        {
+          "value": "#111111",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--accent-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#111111"
+        },
+        {
+          "value": "#F2F3F0",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--destructive": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#D93C15"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--border": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--input": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#CBCCC9"
+        },
+        {
+          "value": "#2E2E2E",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--ring": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#666666"
+        },
+        {
+          "value": "#666666",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    },
+    "--black": {
+      "type": "color",
+      "value": "#000000"
+    },
+    "--font-primary": {
+      "type": "string",
+      "value": "JetBrains Mono"
+    },
+    "--font-secondary": {
+      "type": "string",
+      "value": "Geist"
+    },
+    "--radius-none": {
+      "type": "number",
+      "value": 0
+    },
+    "--radius-pill": {
+      "type": "number",
+      "value": 999
+    },
+    "--color-success": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFE6E1"
+        },
+        {
+          "value": "#222924",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-success-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#004D1A"
+        },
+        {
+          "value": "#B6FFCE",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E9E3D8"
+        },
+        {
+          "value": "#291C0F",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-warning-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#804200"
+        },
+        {
+          "value": "#FF8400",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#E5DCDA"
+        },
+        {
+          "value": "#24100B",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-error-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#8C1C00"
+        },
+        {
+          "value": "#FF5C33",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#DFDFE6"
+        },
+        {
+          "value": "#222229",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--color-info-foreground": {
+      "type": "color",
+      "value": [
+        {
+          "value": "#000066"
+        },
+        {
+          "value": "#B2B2FF",
+          "theme": {
+            "Mode": "Dark"
+          }
+        }
+      ]
+    },
+    "--radius-m": {
+      "type": "number",
+      "value": 16
+    },
+    "card-border": {
+      "type": "color",
+      "value": "#1B2A4A"
+    },
+    "coral": {
+      "type": "color",
+      "value": "#C97D60"
+    },
+    "coral-deep": {
+      "type": "color",
+      "value": "#A8633F"
+    },
+    "font-body": {
+      "type": "string",
+      "value": "Noto Sans TC"
+    },
+    "font-display": {
+      "type": "string",
+      "value": "Archivo"
+    },
+    "font-hand": {
+      "type": "string",
+      "value": "Caveat"
+    },
+    "ink": {
+      "type": "color",
+      "value": "#5C4A42"
+    },
+    "marigold": {
+      "type": "color",
+      "value": "#F4B8A8"
+    },
+    "paper": {
+      "type": "color",
+      "value": "#FBF6F0"
+    },
+    "stem": {
+      "type": "color",
+      "value": "#8FA888"
+    },
+    "text-muted": {
+      "type": "color",
+      "value": "#9AA0B0"
+    },
+    "text-secondary": {
+      "type": "color",
+      "value": "#5A6275"
+    },
+    "white": {
+      "type": "color",
+      "value": "#FFFFFF"
+    }
+  }
+}

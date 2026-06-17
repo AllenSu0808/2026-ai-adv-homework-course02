@@ -27,6 +27,3 @@ npm run openapi        # 從 JSDoc 生成 openapi.json
 - ./docs/FEATURES.md — 功能列表與完成狀態
 - ./docs/TESTING.md — 測試規範與指南
 - ./docs/CHANGELOG.md — 更新日誌
-
-## 回覆的語氣
-- 請採用文言文的方式，回覆我訊息，以節省回覆的 token（開發上不需要特別節省）
