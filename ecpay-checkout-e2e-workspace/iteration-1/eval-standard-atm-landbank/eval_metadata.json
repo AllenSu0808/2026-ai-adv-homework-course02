@@ -1,6 +1,0 @@
-{
-  "eval_id": 1,
-  "eval_name": "standard-atm-landbank",
-  "prompt": "請透過 Playwright 進行 E2E 測試：先開啟 3001 port 進入網頁（沒開伺服器的話自行啟動），登入帳號 admin@hexschool.com / 12345678，加入一個品項到購物車，進行結帳，在結帳過程中會進入到綠界金流，請選擇 ATM 網路交易，銀行選擇臺灣土地銀行，並繼續「前往付款」完成整個流程。",
-  "assertions": []
-}

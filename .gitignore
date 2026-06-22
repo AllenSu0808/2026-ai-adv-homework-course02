@@ -40,3 +40,4 @@ coverage/
 public/css/output.css
 qa.md
 .playwright-mcp/
+ecpay-checkout-e2e-workspace/
